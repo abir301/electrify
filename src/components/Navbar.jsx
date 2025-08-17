@@ -26,32 +26,39 @@ const Navbar = () => {
             <div className="ml-10 flex items-baseline space-x-8">
               <Link
                 to="/"
-                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${
-                  isActive('/') 
-                    ? 'text-primary-600 bg-primary-50' 
-                    : 'text-gray-700 hover:text-primary-600 hover:bg-gray-50'
-                }`}
+                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${isActive('/')
+                    ? 'text-black bg-primary-50'
+                    : 'text-gray-400 hover:text-primary-600 hover:bg-gray-50'
+                  }`}
               >
                 Home
               </Link>
               <Link
                 to="/shop"
-                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${
-                  isActive('/shop') 
-                    ? 'text-primary-600 bg-primary-50' 
-                    : 'text-gray-700 hover:text-primary-600 hover:bg-gray-50'
-                }`}
+                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${isActive('/shop')
+                    ? 'text-black bg-primary-50'
+                    : 'text-gray-400 hover:text-primary-600 hover:bg-gray-50'
+                  }`}
               >
                 Shop
               </Link>
+              <Link
+                to="/about"
+                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${isActive('/about')
+                    ? 'text-black bg-primary-50'
+                    : 'text-gray-400 hover:text-primary-600 hover:bg-gray-50'
+                  }`}
+              >
+                About Us
+              </Link>
+
               {user && (
                 <Link
                   to="/cart"
-                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 relative ${
-                    isActive('/cart') 
-                      ? 'text-primary-600 bg-primary-50' 
+                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 relative ${isActive('/cart')
+                      ? 'text-primary-600 bg-primary-50'
                       : 'text-gray-700 hover:text-primary-600 hover:bg-gray-50'
-                  }`}
+                    }`}
                 >
                   Cart
                   {getTotalItems() > 0 && (
