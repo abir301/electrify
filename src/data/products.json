@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Arduino Uno R3",
+    "description": "The Arduino Uno R3 is a microcontroller board based on the ATmega328P. Perfect for beginners and professionals alike.",
+    "price": 29.99,
+    "image": "https://images.pexels.com/photos/159298/gear-mechanism-machine-mill-159298.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "category": "Microcontrollers"
+  },
+  {
+    "id": 2,
+    "name": "Raspberry Pi 4 Model B",
+    "description": "Complete desktop computer in a compact form factor. 8GB RAM variant with WiFi and Bluetooth connectivity.",
+    "price": 89.99,
+    "image": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "category": "Single Board Computers"
+  },
+  {
+    "id": 3,
+    "name": "Breadboard 830 Points",
+    "description": "Half-size solderless breadboard with 830 tie points. Essential for prototyping electronic circuits.",
+    "price": 8.99,
+    "image": "https://images.pexels.com/photos/159201/circuit-circuit-board-resistor-computer-159201.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "category": "Prototyping"
+  },
+  {
+    "id": 4,
+    "name": "LED Strip 5050 RGB",
+    "description": "5-meter waterproof RGB LED strip with remote control. Perfect for ambient lighting projects.",
+    "price": 24.99,
+    "image": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "category": "LEDs"
+  },
+  {
+    "id": 5,
+    "name": "Servo Motor SG90",
+    "description": "Micro servo motor with 180-degree rotation. Ideal for robotics and automation projects.",
+    "price": 12.99,
+    "image": "https://images.pexels.com/photos/159298/gear-mechanism-machine-mill-159298.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "category": "Motors"
+  },
+  {
+    "id": 6,
+    "name": "Ultrasonic Sensor HC-SR04",
+    "description": "Non-contact distance measurement sensor with 2cm to 400cm range. Great for robotics applications.",
+    "price": 7.99,
+    "image": "https://images.pexels.com/photos/159201/circuit-circuit-board-resistor-computer-159201.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "category": "Sensors"
+  },
+  {
+    "id": 7,
+    "name": "Jumper Wires Set",
+    "description": "120-piece jumper wire set with male-to-male, male-to-female, and female-to-female connectors.",
+    "price": 9.99,
+    "image": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "category": "Wires & Connectors"
+  },
+  {
+    "id": 8,
+    "name": "DC Motor 12V",
+    "description": "High-torque 12V DC motor with 300 RPM. Perfect for robotics and mechanical projects.",
+    "price": 18.99,
+    "image": "https://images.pexels.com/photos/159298/gear-mechanism-machine-mill-159298.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "category": "Motors"
+  },
+  {
+    "id": 9,
+    "name": "OLED Display 0.96\"",
+    "description": "128x64 pixel OLED display module with I2C interface. Crystal clear text and graphics display.",
+    "price": 15.99,
+    "image": "https://images.pexels.com/photos/159201/circuit-circuit-board-resistor-computer-159201.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "category": "Displays"
+  },
+  {
+    "id": 10,
+    "name": "Power Supply Module",
+    "description": "Adjustable DC power supply module 1.25V-30V with current limiting protection.",
+    "price": 34.99,
+    "image": "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "category": "Power Supplies"
+  },
+  {
+    "id": 11,
+    "name": "ESP32 Development Board",
+    "description": "WiFi and Bluetooth enabled microcontroller with built-in antenna. Perfect for IoT projects.",
+    "price": 19.99,
+    "image": "https://images.pexels.com/photos/159298/gear-mechanism-machine-mill-159298.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "category": "Microcontrollers"
+  },
+  {
+    "id": 12,
+    "name": "Temperature Sensor DHT22",
+    "description": "Digital temperature and humidity sensor with high accuracy and long-term stability.",
+    "price": 11.99,
+    "image": "https://images.pexels.com/photos/159201/circuit-circuit-board-resistor-computer-159201.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "category": "Sensors"
+  }
+]
