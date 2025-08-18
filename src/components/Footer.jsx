@@ -39,9 +39,9 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Support</h3>
             <ul className="space-y-2">
-              <li><span className="text-gray-300 text-sm">Email: support@Electrify.com</span></li>
+              <li><span className="text-gray-300 text-sm">Email: support@electrify.com</span></li>
               <li><span className="text-gray-300 text-sm">Phone: (555) 123-4567</span></li>
-              <li><span className="text-gray-300 text-sm">Hours: Mon-Fri 9AM-6PM</span></li>
+              <li><span className="text-gray-300 text-sm">Hours: Sun-Thu 9AM-6PM</span></li>
             </ul>
           </div>
         </div>
@@ -49,13 +49,13 @@ const Footer = () => {
         <div className="border-t border-gray-700 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-300 text-sm">
-              © 2024 Electrify. All rights reserved.
+              © 2025 Electrify. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-gray-300 hover:text-white text-sm transition-colors">
+              <a href="/privacy-policy" className="text-gray-300 hover:text-white text-sm transition-colors">
                 Privacy Policy
               </a>
-              <a href="#" className="text-gray-300 hover:text-white text-sm transition-colors">
+              <a href="/terms-of-service" className="text-gray-300 hover:text-white text-sm transition-colors">
                 Terms of Service
               </a>
             </div>

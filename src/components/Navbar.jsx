@@ -16,7 +16,9 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-primary-600 rounded-md flex items-center justify-center">
-                <span className="text-white font-bold text-lg">E</span>
+                <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
               </div>
               <span className="text-xl font-bold text-gray-900">Electrify</span>
             </Link>
@@ -27,8 +29,8 @@ const Navbar = () => {
               <Link
                 to="/"
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${isActive('/')
-                    ? 'text-black bg-primary-50'
-                    : 'text-gray-400 hover:text-primary-600 hover:bg-gray-50'
+                  ? 'text-black bg-primary-50'
+                  : 'text-gray-400 hover:text-primary-600 hover:bg-gray-50'
                   }`}
               >
                 Home
@@ -36,8 +38,8 @@ const Navbar = () => {
               <Link
                 to="/shop"
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${isActive('/shop')
-                    ? 'text-black bg-primary-50'
-                    : 'text-gray-400 hover:text-primary-600 hover:bg-gray-50'
+                  ? 'text-black bg-primary-50'
+                  : 'text-gray-400 hover:text-primary-600 hover:bg-gray-50'
                   }`}
               >
                 Shop
@@ -45,8 +47,8 @@ const Navbar = () => {
               <Link
                 to="/about"
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${isActive('/about')
-                    ? 'text-black bg-primary-50'
-                    : 'text-gray-400 hover:text-primary-600 hover:bg-gray-50'
+                  ? 'text-black bg-primary-50'
+                  : 'text-gray-400 hover:text-primary-600 hover:bg-gray-50'
                   }`}
               >
                 About Us
@@ -56,8 +58,8 @@ const Navbar = () => {
                 <Link
                   to="/cart"
                   className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 relative ${isActive('/cart')
-                      ? 'text-primary-600 bg-primary-50'
-                      : 'text-gray-700 hover:text-primary-600 hover:bg-gray-50'
+                    ? 'text-primary-600 bg-primary-50'
+                    : 'text-gray-400 hover:text-primary-600 hover:bg-gray-50'
                     }`}
                 >
                   Cart
@@ -84,10 +86,10 @@ const Navbar = () => {
               </div>
             ) : (
               <div className="flex items-center space-x-2">
-                <Link to="/login" className="bg-gray-200 text-gray-700 hover:bg-gray-300 font-medium py-2 px-4 rounded-lg transition-colors duration-200 text-sm border-2 border-transparent hover:border-gray-400">
+                <Link to="/login" className="bg-gray-200 text-gray-700 font-medium py-2 px-4 rounded-lg duration-200 text-sm ">
                   Login
                 </Link>
-                <Link to="/signup" className="bg-primary-600 text-white hover:bg-primary-700 font-medium py-2 px-4 rounded-lg transition-colors duration-200 text-sm border-2 border-transparent hover:border-primary-500 shadow-lg hover:shadow-xl">
+                <Link to="/signup" className="bg-primary-600 hover:bg-primary-700 font-medium py-2 px-4 rounded-lg transition-colors duration-200 text-sm border-2 border-transparent hover:border-primary-500 shadow-lg hover:shadow-xl">
                   Sign Up
                 </Link>
               </div>

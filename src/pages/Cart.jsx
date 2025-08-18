@@ -1,4 +1,6 @@
 import { useCart } from '../contexts/CartContext';
+import { Link } from 'react-router-dom';
+import toast from 'react-hot-toast';
 
 const Cart = () => {
   const { cartItems, updateQuantity, removeFromCart, getTotalPrice, clearCart } = useCart();
@@ -14,15 +16,15 @@ const Cart = () => {
           </div>
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Your cart is empty</h2>
           <p className="text-gray-600 mb-8">Start shopping to add items to your cart</p>
-          <a
-            href="/shop"
-            className="bg-primary-600 text-white hover:bg-primary-700 font-medium py-3 px-6 rounded-lg transition-colors duration-200 inline-flex items-center space-x-2 border-2 border-transparent hover:border-primary-500 shadow-lg hover:shadow-xl"
+          <Link
+            to="/shop"
+            className="bg-primary-600 hover:bg-primary-700 font-medium py-3 px-6 rounded-lg transition-colors duration-200 inline-flex items-center space-x-2 border-2 border-transparent hover:border-primary-500 shadow-lg hover:shadow-xl"
           >
             <span>Continue Shopping</span>
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
             </svg>
-          </a>
+          </Link>
         </div>
       </div>
     );
@@ -121,15 +123,15 @@ const Cart = () => {
           </div>
           
           <div className="flex space-x-4">
-            <a
-              href="/shop"
+            <Link
+              to="/shop"
               className="flex-1 bg-gray-200 text-gray-700 hover:bg-gray-300 font-medium py-3 px-6 rounded-lg transition-colors duration-200 text-center border-2 border-transparent hover:border-gray-400"
             >
               Continue Shopping
-            </a>
+            </Link>
             <button
               onClick={() => alert('Checkout functionality would be implemented here')}
-              className="flex-1 bg-primary-600 text-white hover:bg-primary-700 font-medium py-3 px-6 rounded-lg transition-colors duration-200 border-2 border-transparent hover:border-primary-500 shadow-lg hover:shadow-xl"
+              className="flex-1 bg-primary-600 hover:bg-primary-700 font-medium py-3 px-6 rounded-lg transition-colors duration-200 border-2 border-transparent hover:border-primary-500 shadow-lg hover:shadow-xl"
             >
               Proceed to Checkout
             </button>
